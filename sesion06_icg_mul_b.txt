@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+   <title>Ejercicio 514</title>
+</head>
+<body>
+   <canvas id="lineas" width="500px" height="500px" style="border: 2px solid gray;"></canvas>
+
+
+   <script>
+     window.addEventListener('load', () => {
+       let canvasLineas = document.getElementById('lineas');
+       let ctx = canvasLineas.getContext('2d');
+
+
+       ctx.beginPath(); 
+       ctx.strokeStyle = 'crimson';
+       ctx.moveTo(168,55);
+       ctx.lineTo(147,135);
+       ctx.lineTo(130,135);
+       ctx.lineTo(120,134);
+       ctx.lineTo( 112 ,129);
+       ctx.lineTo(104 ,128);
+       ctx.lineTo(102,129);
+       ctx.lineTo(92, 139);
+       ctx.lineTo(105,149);
+        ctx.lineTo(115,151);
+       ctx.lineTo(129,153);
+       ctx.lineTo(159,154);
+       ctx.lineTo(193,156);
+       ctx.lineTo(225,158);
+       ctx.lineTo(243, 158);
+       ctx.lineTo(317,156);
+       ctx.lineTo(380,156);
+       ctx.lineTo(404,152);
+       ctx.lineTo(407,149);
+       ctx.lineTo(407,138);
+       ctx.lineTo(397,127);
+       ctx.lineTo(384,135);
+       ctx.lineTo(367,135);
+       ctx.lineTo(356,132);
+       ctx.lineTo(329,49);
+        ctx.lineTo(314,46);
+       ctx.lineTo(302,46);
+       ctx.lineTo(281,47);
+       ctx.lineTo( 246,48);
+       ctx.lineTo(239,46);
+       ctx.lineTo(215,48);
+       ctx.lineTo(209,49);
+       ctx.lineTo(186,50);
+       ctx.lineTo(168,55);
+       ctx.stroke()
+       
+       
+     });
+  </script>  
+</body>
+</html>
+</html>
